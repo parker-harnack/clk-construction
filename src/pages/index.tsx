@@ -30,8 +30,6 @@ export const IndexPage = ({ services, options }: IndexPageProps) => {
     <>
       <Head>
         <title>CLK Construction</title>
-        <link rel="icon" href="/icon.ico" />
-        <link rel="apple-touch-icon" href="/favicon.png" type="image/x-icon" />
       </Head>
       <main className="bg-container">
         <TopBar />
