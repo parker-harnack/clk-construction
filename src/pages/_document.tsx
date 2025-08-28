@@ -17,8 +17,12 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="CLK Construction" />
           <meta property="og:description" content="CLK Construction" />
           <meta property="og:url" content="clkconstructioninc.com" />
+          <link
+            rel="apple-touch-icon"
+            type="image/png"
+            href="/apple-touch-icon.png"
+          />
           <link rel="icon" href="/icon.ico" />
-          <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         </Head>
         <body>
           <Main />
