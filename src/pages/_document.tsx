@@ -24,6 +24,7 @@ export default class MyDocument extends Document {
             sizes="96x96"
           />
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <link rel="mask-icon" href="/favicon.svg" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
