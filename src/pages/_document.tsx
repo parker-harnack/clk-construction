@@ -23,16 +23,29 @@ export default class MyDocument extends Document {
             href="/favicon-96x96.png"
             sizes="96x96"
           />
-          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/favicon.svg"
+            sizes="any"
+          />
           <link rel="mask-icon" href="/favicon.svg" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
-            sizes="180x180"
+            sizes="any"
             href="/apple-touch-icon.png"
           />
           <meta name="apple-mobile-web-app-title" content="CLK" />
           <link rel="manifest" href="/site.webmanifest" />
+          <link rel="icon" href="/favicon4848.png" sizes="48x48" />
+          <link rel="icon" href="/favicon.svg" sizes="any" />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon16x16.png"
+          ></link>
         </Head>
         <body>
           <Main />
