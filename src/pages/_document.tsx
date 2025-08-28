@@ -23,6 +23,7 @@ export default class MyDocument extends Document {
             href="/apple-touch-icon.png"
           />
           <link rel="apple-touch-startup-image" href="/apple-touch-icon.png" />
+          <link rel="shortcut icon" href="/apple-touch-icon.png" />
           <link rel="icon" href="/icon.ico" />
         </Head>
         <body>
