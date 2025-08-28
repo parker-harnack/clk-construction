@@ -10,6 +10,7 @@ import {
   AboutView,
   ContactInfoView,
 } from "views";
+import MenuButton from "components/MenuButton";
 
 import Head from "next/head";
 import {
@@ -26,13 +27,21 @@ interface IndexPageProps {
 }
 
 export const IndexPage = ({ services, options }: IndexPageProps) => {
+  // Prepare menu options
+  const menuOptions = [
+    { label: "Gallery", href: "/gallery" },
+    { label: "Contact", href: "#contact" },
+    // Add more options as needed
+  ];
   return (
     <>
       <Head>
         <title>CLK Construction</title>
       </Head>
       <main className="bg-container">
-        <TopBar />
+        <div className="flex justify-between items-center px-4 py-2">
+          <TopBar />
+        </div>
         <IndexView />
         <ServicesView services={services} />
         <AboutView />

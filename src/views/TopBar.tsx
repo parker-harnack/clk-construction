@@ -26,6 +26,12 @@ function TopBar() {
           >
             Contact
           </Link>
+          <Link
+            className="text-md font-medium hover:underline underline-offset-4"
+            href="/gallery2"
+          >
+            Gallery
+          </Link>
         </nav>
       </div>
     </header>
